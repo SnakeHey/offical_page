@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="favicon.ico">
+    <meta charset="utf-8">
+    <style>
+        .dropbtn {
+            background-color: #4CAF50;
+            color: white;
+            padding: 16px;
+            font-size: 16px;
+            border: none;
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f1f1f1;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown:hover .dropbtn {
+            background-color: #3e8e41;
+        }
+    </style>
+    <style>
+        body {
+            margin: 0;
+            background-color: silver;
+        }
+
+        .container {
+            text-align: center;
+            margin: 0 auto;
+            max-width: 670px;
+            padding: 23px;
+            background-color: white;
+            font: normal 1.0em/1.4 'Arial', sans-serif;
+        }
+
+        .imgCenter {
+            text-align: center;
+        }
+        .menu {
+            width: 100%;
+            background-color: purple;
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .menu a {
+                              width: 100%;
+                              border: white 1px solid;
+                              background-color: #ff8686;
+                              margin: 1px;
+                              text-decoration: none;
+                              color: white;
+                              text-align: center;
+                              transition: 0.2s;
+                          }
+        .menu a:hover {
+            background-color: #ffa0a0;
+            color: silver;
+        }
+    </style>
+</head>
+<body>
+<div class="menu">
+    <a href="SNAKE%20HEY%20DIEANDKILL.html">Главная</a>
+    <a href="SNAKE%20HEY%20DIEAND%20KILL%20Новости.html">Новости</a>
+    <a href="SNAKE%20HEY%20DIEANDKILL%20Жалобы.html">Подать жалобу</a>
+    <a href="SNAKE%20HEY%20DIEANDKILL%20Правила.html">Правила</a>
+    <a href="SNAKE%20HEY%20DIEAND%20KILL%20Администрация.html">Администрация</a>
+    <a href="https://snakehey.github.io/discord_donate/#">Покупка доната</a>
+</div>
+<div class="container">
+    <div class="imgCenter">
+        <img src="discord.jpg">
+
+    </div>
+
+    <h1 style="color:blue;">Администрация на сервере</h1>
+    <h1 style="color:purple;">SNAKE HEY [DIE AND KILL]</h1>
+    <p>Тут вы увидите список администрации сервера !</p>
+    <p>В администрацию входят :</p>
+    <p><b>Creator ( Создатель )</b></p>
+    <p><b>Управляющий ( 0 )</b></p>
+    <p><b>Зам.SnakeHey ( 0 )</b></p>
+    <p><b>Administrator ( 0 )</b></p>
+    <p><b>Owner ( 1 ): GFP_USER#8576</b></p>
+    <p><b>Gl.Moder ( 3 ): !SergoGame#1825 , Tom223223#2606 , 𝕊𝕦𝕡𝕣𝕖𝕞𝕖\oɟɟ!ɔ!ɐן/
+        #5483</b></p>
+
+
+    <title>(DIEANDKILL) Администрация</title>
+    <style>a.green {
+        border-radius: 4px;
+        -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.08);
+        -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.08);
+        box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.08);
+        color: #fff;
+        display: block;
+        width: 100px;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        padding: 8px 16px;
+        margin: 20px auto;
+        text-decoration: none;
+        text-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
+        -webkit-transition: background-color 0.1s linear;
+        -moz-transition: background-color 0.1s linear;
+        -o-transition: background-color 0.1s linear;
+        transition: background-color 0.1s linear;
+    }
+
+    a.green {
+        background-color: rgb(43, 153, 91);
+        border: 1px solid rgb(33, 126, 74);
+    }
+
+    a.green:hover {
+        background-color: rgb(75, 183, 141);
+    }
+    </style>
+    <!-- modify this form HTML and place wherever you want your form -->
+
+    <form id="my-form" action="https://formspree.io/mqkbbgra" method="POST">
+        <input type="hidden" name="email"/>
+        <input type="hidden" name="message" id="mes"/>
+        <p id="my-form-status"></p>
+    </form>
+
+    <!-- Place this script at the end of the body tag -->
+
+    <script>
+        window.addEventListener("DOMContentLoaded", function () {
+
+            // get the form elements defined in your form HTML above
+
+            var form = document.getElementById("my-form");
+            var button = document.getElementById("my-form-button");
+            var status = document.getElementById("my-form-status");
+
+            // Success and Error functions for after the form is submitted
+
+            function success() {
+                form.reset();
+                button.style = "display: none ";
+                status.innerHTML = "Жалоба отправлена !";
+            }
+
+            function error() {
+                status.innerHTML = "Oops! There was a problem.";
+            }
+
+            // handle the form submission event
+
+
+            (function () {
+                if (typeof window.CustomEvent === "function") return false;
+
+                function CustomEvent(event, params) {
+                    params = params || {bubbles: true, cancelable: true, detail: undefined};
+                    var evt = document.createEvent('submit');
+                    evt.initCustomEvent(event, params.bubbles, params.cancelable, params.detail);
+                    return evt;
+                }
+
+                CustomEvent.prototype = window.Event.prototype;
+
+                window.CustomEvent = CustomEvent;
+
+            })();
+            var evt = new CustomEvent("submit", {"bubbles": true, "cancelable": true});
+
+            form.addEventListener("submit", function (ev) {
+                ev.preventDefault();
+                var data = new FormData(form);
+                debugger
+                ajax(form.method, form.action, data, success, error);
+            });
+
+            button.addEventListener("click", function (ev) {
+                let x = document.querySelectorAll('textarea')
+                let res = []
+                for (let v of x) {
+                    res.push(v.value)
+                }
+                let textTarget = document.querySelector('.dropbtn')
+                res.push(textTarget.innerText)
+                let mesEl = document.querySelector('#mes')
+                mesEl.value = res.join("\r\n\r\n")
+                form.dispatchEvent(evt);
+                //form.submit();
+            })
+
+        });
+
+        // helper function for sending an AJAX request
+
+        function ajax(method, url, data, success, error) {
+            var xhr = new XMLHttpRequest();
+            xhr.open(method, url);
+            xhr.setRequestHeader("Accept", "application/json");
+            xhr.onreadystatechange = function () {
+                if (xhr.readyState !== XMLHttpRequest.DONE) return;
+                if (xhr.status === 200) {
+                    success(xhr.response, xhr.responseType);
+                } else {
+                    error(xhr.status, xhr.response, xhr.responseType);
+                }
+            };
+            xhr.send(data);
+        }
+    </script>
+</div>
+By Snake Hey [ DIANDKILL ]
+<script>
+    let allA = document.querySelectorAll('.dropdown-content a')
+    let textTarget = document.querySelector('.dropbtn')
+    for (let oneA of allA) {
+        if (!oneA.classList.contains('noSale')) {
+            oneA.addEventListener('click', () => {
+                textTarget.innerText = oneA.innerText
+            })
+        }
+    }
+    /*
+    git checkout -b gh-pages
+
+    git add .
+    git commit -m "Initial"
+    git push origin gh-pages
+    */
+</script>
+
+
+</body>
+</html>
